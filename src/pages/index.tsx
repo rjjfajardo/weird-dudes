@@ -8,7 +8,16 @@ import Image from "next/image";
 const HomePage = () => {
   return (
     <>
+      <div className="flex items-center justify-center absolute w-full h-full">
+        <div className="flex flex-col justify-center items-center h-screen">
+          <Image src="/images/promo_logo.svg" alt="" width={350} height={350} />
+          <button className="bg-white hover:bg-white-700 text-black py-2 px-4 rounded mt-24">
+            Shop Now
+          </button>
+        </div>
+      </div>
       <Image src="/gif/promo.gif" alt="" width={1730} height={10} />
+
       <div className="bg-black">
         <div className="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-6 lg:max-w-7xl lg:px-8 flex justify-between">
           <div className="flex items-center gap-3">
