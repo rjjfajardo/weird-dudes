@@ -54,6 +54,47 @@ const products = [
     color: "Black",
     description: "WEIRD DUDES CLUB",
   },
+
+  {
+    id: 1,
+    name: "Coming Soon",
+    href: "#",
+    imageSrc: "/images/collections/collection3.png",
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: "$0.00",
+    color: "Black",
+    description: "SINCE DAY ONE ",
+  },
+  {
+    id: 1,
+    name: "Coming Soon",
+    href: "#",
+    imageSrc: "/images/collections/collection4.png",
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: "$0.00",
+    color: "Black",
+    description: "WEIRD DUDES CLUB",
+  },
+  {
+    id: 1,
+    name: "Coming Soon",
+    href: "#",
+    imageSrc: "/images/collections/collection1.png",
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: "$0.00",
+    color: "Black",
+    description: "PIZZA COLLECTION",
+  },
+  {
+    id: 1,
+    name: "Coming Soon",
+    href: "#",
+    imageSrc: "/images/collections/collection2.png",
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: "$0.00",
+    color: "Black",
+    description: "ANNIVERSARY SHIRT",
+  },
 ];
 const Products = () => {
   return (
